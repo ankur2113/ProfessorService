@@ -1,0 +1,14 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8767/eureka/
+  instance:
+    prefer-ip-address: true
+    
+    
+spring:
+  application:
+    name: professor_service
+    
+server:
+  port: 9191
